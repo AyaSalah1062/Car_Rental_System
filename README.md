@@ -1,4 +1,4 @@
-Car Rental company with following features:
+# Car Rental company with following features:
 • The system should be able to register a new car (model, year, plate id, etc.) and update 
 car status (active, out of service, rented, etc.),
 • Customers will be able to reserve their cars from anywhere in the world via this system 
@@ -22,10 +22,11 @@ o All reservations of specific customer including customer information, car
 model and plate id.
 o Daily payments within specific period.
 
-here is ERD:
+**The system is built using Node.js and Express.js. The database is built using MySQL.**
+# ERD:
 ![Erd](https://github.com/AyaSalah1062/Car_Rental_System/assets/141213088/cb5bf05c-bdd5-44fb-b65b-90e1f64abb00)
 
-here is homepage:
+# Sample run :
 ![homepage](https://github.com/AyaSalah1062/Car_Rental_System/assets/141213088/774ad250-1e85-45a0-86d0-a4793698b44e)
 ![SignUp](https://github.com/AyaSalah1062/Car_Rental_System/assets/141213088/dcc8ece5-9b13-4b2c-be1f-3cf52bfcbf6b)
 ![login](https://github.com/AyaSalah1062/Car_Rental_System/assets/141213088/b9c7e1d3-66bb-4825-88d8-f0d5200b8ab3)
