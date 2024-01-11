@@ -1,0 +1,173 @@
+/* Common Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #86bdea; /* Light blue background color */
+}
+
+/* Reservation Container Styles */
+.reservation-container {
+  max-width: 100%;
+  margin: 0;
+  background-color: #8ebee5; /* Light blue background color */
+  padding-top: 20px; /* Added padding to the top */
+}
+
+/* Reservation Step Styles */
+.reservation-step {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #c1efff; /* White background color */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 0 auto; /* Center the element horizontally */
+  margin-bottom: 20px;
+}
+
+/* Form Group Styles */
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* Label Styles */
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Select Styles */
+select {
+  width: 100%;
+  padding: 14px; /* Adjusted padding for select */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px; /* Larger font size */
+
+}
+
+/* Button Styles */
+.search-button,
+.next-button,
+.reserve-button,
+.btn-outline-secondary {
+  padding: 12px; /* Adjusted padding for buttons */
+  background-color: #2bc8e7; /* Blue button color */
+  color: #fff; /* White text color */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+  font-size: 20px; /* Larger font size */
+
+}
+
+.btn-outline-secondary {
+  background-color: #fff;
+  color: #007bff;
+  border: 1px solid #007bff;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Payment Container Styles */
+.payment-container {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+/* Payment Step Styles */
+.payment-step {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff; /* White background color */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+/* Credit Card Input Styles */
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 3px;
+}
+
+/* Submit Button Styles */
+.btn-primary {
+  padding: 12px; /* Adjusted padding for submit button */
+  background-color: #64dc80; /* Green button color */
+  color: #fff; /* White text color */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px; /* Larger font size */
+
+}
+
+.btn-primary:hover {
+  background-color: #de564f; /* Darker green on hover */
+}
+
+/* Back Button Styles */
+.btn-back {
+  padding: 12px; /* Adjusted padding for back button */
+  background-color: #dc3545; /* Red button color */
+  color: #fff; /* White text color */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-back:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
+
+/* Car Result Styles */
+.reservation-step > div {
+  width: 90%; /* Adjusted width for two cars in a row */
+  margin-bottom: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Car Image Styles */
+.reservation-step img {
+  width: 100%; /* Make the image fill the container */
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* Reserve Button Styles */
+.reserve-button {
+    display: block;
+    margin: 0 auto;
+    padding: 20px; /* Larger padding for reserve button */
+    font-size: 16px; /* Larger font size */
+    background-color: #4caf50; /* Green button color */
+    color: white; /* White text color */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.reserve-button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+.date-picker-input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  /* Add more styles as needed */
+}
+

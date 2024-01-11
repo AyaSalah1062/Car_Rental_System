@@ -1,0 +1,190 @@
+
+body {
+  background-color: #f8f9fa; /* Light Grayish Blue Background */
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  color: #495057; /* Bootstrap Secondary Dark Gray */
+
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.home-page {
+  text-align: center;
+  padding: 0; /* Adjust padding for a larger container */
+  background-image: url('https://149501111.v2.pressablecdn.com/wp-content/uploads/2021/02/Car-Rental-System.jpg'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  color: #fff; /* Set text color to white */
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Set height to cover the entire viewport */
+
+  justify-content: flex-end; /* Align content to the bottom */}
+
+.signup-page,
+.login-page,
+.admin-login-page {
+  background: linear-gradient(135deg, #3494e6, #ec6ead); /* Gradient Background for Signup, Login, and Admin Login Pages */
+}
+
+.home-page h1 {
+  color: #007bff; /* Bootstrap Primary Blue */
+}
+
+.home-page p {
+  margin: bottom 20px;
+  font-size: 40px;
+  background-color: #62a5ec; /* Bootstrap Primary Blue */
+  display: inline-block; /* Make the box only as wide as the text */
+  padding: 5px; /* Add padding for space around the text */
+  border: 2px solid #007bff; /* Add a border around the text */
+  border-radius: 5px; /* Add border-radius for rounded corners */
+}
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.button {
+  padding: 15px 20px;
+  border-radius: 45px;
+  font-size: 40px;
+  margin-bottom: 100px;
+  margin: 30px; /* Adjust button spacing */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .button {
+    margin: 0 0 10px 0;
+    width: 100%; /* Make buttons full width on smaller screens */
+  }
+}
+/* client/src/components/UserSignupPage.css */
+
+.signup-container {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.signup-container h2 {
+  color: #007bff !important;
+  font-size: 4px !important;
+  font-weight: bold !important;
+  margin-bottom: 20px !important;
+  text-align: center !important;
+}
+
+.signup-container label {
+  font-size: 30px !important;
+  font-weight: bold !important;
+  margin-bottom: 10px !important;
+}
+
+.signup-container p {
+  color: #6c757d;
+  font-size: 30px !important;
+  margin-bottom: 15px !important;
+}
+
+.signup-container form {
+  margin-top: 20px;
+}
+
+.signup-container button {
+  background-color: #007bff;
+  color: #fff;
+  font-size: 60px; /* Increase font size for buttons */
+  font-weight: bold; /* Make buttons bold */
+  padding: 12px; /* Adjust padding for buttons */
+  width: 100%; /* Make buttons full width */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signup-container button:hover {
+  background-color: #0056b3;
+}
+
+/* Additional styles for UserLoginPage */
+.login-container {
+  background-color: #f8f9fa !important;
+  padding: 20px !important;
+  border-radius: 10px !important;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) !important;
+}
+
+.login-container h2 {
+  color: #007bff !important;
+}
+
+.login-container p {
+  color: #6c757d !important;
+}
+
+.login-container form {
+  margin-top: 20px !important;
+}
+
+.login-container button {
+  background-color: #007bff !important;
+  color: #fff !important;
+  width: 100% !important;
+  padding: 10px !important;
+}
+
+.login-container button:hover {
+  background-color: #0056b3 !important;
+}
+
+.login-container .mt-3 {
+  margin-top: 20px !important;
+}
+
+.login-container input::placeholder {
+  color: #6c757d !important;
+}
+
+.login-container input {
+  border: 1px solid #ced4da !important;
+  border-radius: 5px !important;
+  padding: 10px !important;
+  width: 100% !important;
+  margin-bottom: 10px !important;
+}
+
+.login-container button {
+  cursor: pointer !important;
+  transition: background-color 0.3s ease !important;
+}
+
+.login-container button:disabled {
+  cursor: not-allowed !important;
+}
+
+header {
+  background-color: #007bff; /* Blue header background color */
+  padding: 20px;
+  color: #fff; /* White text color */
+  text-align: center; 
+} 
+
+footer {
+  background-color: #007bff; /* Blue footer background color */
+  padding: 10px;
+  color: #fff; /* White text color */
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+
