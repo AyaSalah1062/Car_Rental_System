@@ -1,4 +1,4 @@
-Car Rental company asked you to implement a system with the following features:
+Car Rental company with following features:
 • The system should be able to register a new car (model, year, plate id, etc.) and update 
 car status (active, out of service, rented, etc.),
 • Customers will be able to reserve their cars from anywhere in the world via this system 
